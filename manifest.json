@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-08-05",
+  "comment": "Image manifest for the smalltalk80-2026 launchers. Fetched from https://raw.githubusercontent.com/avwohl/st80-images/main/manifest.json (see kManifestUrl in app/linux/Launcher.cpp and kManifestHost / kManifestPath in app/windows/Launcher.cpp). Each asset carries the SHA256 digest of the published release asset; the launcher verifies after download and deletes the file on mismatch.",
+  "images": [
+    {
+      "id": "xerox-v2",
+      "label": "Xerox Smalltalk-80 v2 (Wolczko)",
+      "slug": "xerox-v2",
+      "imageFileName": "VirtualImage",
+      "description": "The 1983 Xerox Blue Book virtual image as prepared by Mario Wolczko. Original source: https://github.com/dbanay/Smalltalk.",
+      "assets": [
+        {
+          "name": "VirtualImage",
+          "url": "https://github.com/avwohl/st80-images/releases/download/xerox-v2/VirtualImage",
+          "sha256": "cac3a2d9690e8353d9ccfd073b1199bd49b43b5989607032a06a185cd4f23a1c",
+          "size": 596128
+        },
+        {
+          "name": "Smalltalk-80.sources",
+          "url": "https://github.com/avwohl/st80-images/releases/download/xerox-v2/Smalltalk-80.sources",
+          "sha256": "cad30b4cce6f87539a42a60192000730d8cd248aa85ec0d1d9e74938198b0f86",
+          "size": 1411072
+        }
+      ]
+    }
+  ]
+}
